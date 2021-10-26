@@ -34,12 +34,16 @@ Cons: same template for backlog tasks required to avoid confusion, iteration rev
 
 ## Definition of the business need
 ### Problem definition
+There are many different types of public transportation in London. Trends in the usage of public transport change due to the certain events such as road closures, construction works and so on. In 2020 and 2021, there were a lot of disruption of TfL because of coronavirus pandemic. These changes led to the transition of popularity for public transport journeys by type of transport. Due to an increased demand for transport and Brexit shortages, there is now a problem of overcrowding and a lack of drivers.
 
 ### Target audience
+TfL analysts and workers.
 
 ### Questions to be answered using the dataset
+Trends in the usage of transport types in London can help TfL analysts to come up with better project plans and approaches.
 
 ### Suggested web app
+Web app can show graphs such as changes in the popularity of certain journey types.
 
 ## Data preparation and exploration
 ### Data preparation
