@@ -3,7 +3,7 @@
 ## Technical information
 ### Repository URL
 Please add the URL to your repository below, then delete this instruction text.
-[Repository]()
+[Repository](https://github.com/ucl-comp0035/coursework-1-azhar-nurgaliyeva)
 
 ### Set-up instructions
 
@@ -14,13 +14,23 @@ instructions to be followed to run your coursework.
 
 If the marker cannot execute your coursework they can't grade it!
 
+## Data set
+Transport - "Public transport journeys by type of transport".
+
+Project idea: explore how public transport use in London has changed due to the coronavirus pandemic.
 
 ## Selection of project methodology
 ### Methodology (or combination) selected
-some changes
+Methodology - Data Driven Scrum
 
 ### Selection criteria and justification of selection
+Criteria - experience of the team in particular methods.
 
+The selected methodology is Data Driven Scrum, which is the combination of Scrum and Kanban board methods. Both methods are agile frameworks, which is why they are particularly useful for data science projects. This methodology has been chosen as I have an experience of working with it from my summer work experience.
+
+Pros: easier to accommodate tasks with uncertain time duration, efficient iterations, transparency, no unnecessary meetings.
+
+Cons: same template for backlog tasks required to avoid confusion, iteration review is happening randomly, what about priority tasks (?)
 
 ## Definition of the business need
 ### Problem definition
