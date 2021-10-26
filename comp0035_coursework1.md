@@ -60,27 +60,54 @@ Please add names of your data set files in this repository below, then delete th
 [Data Exploration]()
 
 ## Weekly progress reports
-Copy and paste from Moodle or use the following structure. Delete this instruction text.
-
-What I did in the last week:
-- item
-- item
-
-What I plan to do in the next week:
-- item
-- item
-
-Issues blocking my progress (state ‘None’ if there are no issues):
-- item
-- item
 
 ### Report 1
+What I did in the last week:
+- Got assigned a data set regarding the changes in journey types in London. 
+- Went through the list of methodologies and chose the most suitable one for my data set. 
+- Looked at the data set to understand the types of data there.
+
+What I plan to do in the next week:
+- Work on the problem statement
+- Identify tha target audience
+
+Issues blocking my progress (state 'None' if there are no issues):
+- There are no issues at the moment.
 
 ### Report 2
+What I did in the last week:
+- Started editing comp0035_coursework1.md file with the selected methodology and reasoning. 
+- I identified the target audience for the problem statement. 
+- I have some ideas for the web app, but still thinking about which one should I go for.
+
+What I plan to do in the next week:
+- I plan to write up a problem statement and other business understanding related aspects in the document outline. 
+- Start on data preparation and recognise the importance of data ethics.
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+- The only issue I have is that I can't commit and push changes through Git on PyCharm at the moment.
 
 ### Report 3
+What I did in the last week:
+- Resolved the issue with pushing changes to GitHub.
+- Worked on the problem statement and target audience for the web app.
+
+What I plan to do in the next week:
+- Data exploration: graphs
+
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+- None
 
 ### Report 4
+What I did in the last week:
+
+
+What I plan to do in the next week:
+
+
+Issues blocking my progress (state ‘None’ if there are no issues):
+
 
 ## References
 Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
