@@ -90,11 +90,12 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 ### Report 3
 What I did in the last week:
 - Resolved the issue with pushing changes to GitHub.
-- Worked on the problem statement and target audience for the web app.
+- Finalised the problem statement and target audience for the web app. 
+- Started prepping the data and trying to identify key questions to be answered. 
+- Analysed how the dataset could be reduced.
 
 What I plan to do in the next week:
-- Data exploration: graphs
-
+- Continue data exploration and making graphs to answer the key questions for the problem statement.
 
 Issues blocking my progress (state ‘None’ if there are no issues):
 - None
