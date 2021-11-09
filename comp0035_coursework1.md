@@ -21,23 +21,43 @@ Project idea: explore how public transport use in London has changed due to the 
 
 ## Selection of project methodology
 ### Methodology (or combination) selected
-Methodology - Data Driven Scrum
+- Methodology - Data Driven Scrum
 
 ### Selection criteria and justification of selection
-Criteria - experience of the team in particular methods.
+Criteria - experience of the team (i.e. me in this case) in particular methods.
+This criteria is important because knowing existing strengths is essential to approach weaknesses.
+It makes the process more efficient and effective.
 
-The selected methodology is Data Driven Scrum, which is the combination of Scrum and Kanban board methods. Both methods are agile frameworks, which is why they are particularly useful for data science projects. This methodology has been chosen as I have an experience of working with it from my summer work experience.
+The selected methodology is Data Driven Scrum, which is the combination of Scrum and Kanban board methods.
+Both methods are agile frameworks, which is why they are particularly useful for data science projects.
+This methodology has been chosen as I have an experience of working with it from my summer work experience.
+Moreover, this methodology gives flexibility and transparency in all the processes.
+This is important as it is easier to trace back inefficiencies that way.
 
-Pros: easier to accommodate tasks with uncertain time duration, efficient iterations, transparency, no unnecessary meetings.
+Advantages of Data Driven Scrum:
+- easier to accommodate tasks with uncertain time duration;
+- efficient iterations;
+- transparency of the processes within a team;
+- no unnecessary meetings (time is not wasted).
 
-Cons: same template for backlog tasks required to avoid confusion, iteration review is happening randomly, what about priority tasks (?)
+Disadvantages of Data Driven Scrum:
+- same template for backlog tasks required to avoid confusion;
+- iteration review may happen randomly;
+- it may cause confusion on the priority of certain tasks.
 
 ## Definition of the business need
 ### Problem definition
-There are many different types of public transportation in London. Trends in the usage of public transport change due to the certain events such as road closures, construction works and so on. In 2020 and 2021, there were a lot of disruption of TfL because of coronavirus pandemic. These changes led to the transition of popularity for public transport journeys by type of transport. Due to an increased demand for transport and Brexit shortages, there is now a problem of overcrowding and a lack of drivers.
+There are many different types of public transportation in London.
+Trends in the usage of public transport change due to the certain events such as road closures, construction works and so on.
+In 2020 and 2021, there were a lot of disruptions of Transport for London (TfL) because of coronavirus pandemic.
+New regulations and changes led to the transition of popularity for public transport journeys by type of transport.
+Due to an increased demand for transport, there is now a problem of overcrowding, which is a safety risk.
+
 
 ### Target audience
-TfL analysts and workers.
+The following is the description of the target audience for the product:
+
+![persona_target](persona.png)
 
 ### Questions to be answered using the dataset
 Trends in the usage of transport types in London can help TfL analysts to come up with better project plans and approaches.
