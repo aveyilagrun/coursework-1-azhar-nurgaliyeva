@@ -1,7 +1,6 @@
 # Pandas library will be used for data preparation.
 import pandas as pd
 
-
 if __name__ == '__main__':
     # The data set contains information about public transport journeys by type of transport.
     # Both Excel and CSV files of the data set are saved in the "data" folder.
