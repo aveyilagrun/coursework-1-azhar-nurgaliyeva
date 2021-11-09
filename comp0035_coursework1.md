@@ -76,12 +76,12 @@ Trends in the usage of transport types in London can help TfL analysts to come u
 
 ### Prepared data set
 Please add names of your data set files in this repository below, then delete this instruction text.
-[Original data set]()
-[Prepared data set]()
+[Original data set](data/tfl-journeys-type.csv)
+[Prepared data set](prepared_dataset.csv)
 
 ### Data exploration
 
-[Data Exploration]()
+[Data Exploration](data_exploration.py)
 
 ## Weekly progress reports
 
