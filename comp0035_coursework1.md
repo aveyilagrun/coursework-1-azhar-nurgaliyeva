@@ -60,10 +60,14 @@ The following is the description of the target audience for the product:
 ![persona_target](persona.png)
 
 ### Questions to be answered using the dataset
+- Is there any pattern in the changes of usage for public transportation in London?
+- Which group of public transportation consumers use the most?
+- Which category of people usually uses transport at that time?
+- Are trends similar to the performance before the pandemic?
+- Is it possible to reduce the overcrowding on certain types of transport?
+
 Trends in the usage of transport types in London can help TfL analysts to come up with better project plans and approaches.
 
-### Suggested web app
-Web app can show graphs such as changes in the popularity of certain journey types.
 
 ## Data preparation and exploration
 ### Data preparation
