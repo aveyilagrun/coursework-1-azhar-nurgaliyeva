@@ -14,6 +14,13 @@ if __name__ == '__main__':
     # Remove a single column with the name 'Reporting Period'.
     df = df.drop(['Reporting Period'], axis=1)
 
+    # Limit the data from 2018 to the present time
+    df = df.iloc[-47:]
+
+    # Reset the index to avoid the problems with it
+    df = df.reset_index(drop=True)
+
+    # Printing the prepped DataFrame
     print(df)
 
     # Save the dataframe to a new CSV file. Row names will not be saved.
