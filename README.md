@@ -1,5 +1,7 @@
 # Coursework 1
 
+Candidate number: QNGH7
+
 ## Technical information
 
 ### Repository URL
