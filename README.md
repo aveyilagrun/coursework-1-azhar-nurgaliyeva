@@ -26,8 +26,8 @@ Transport - **"Public transport journeys by type of transport".** [1]
 
 ### Selection criteria and justification of selection
 
-Criteria - experience of the team (i.e. me in this case) in particular methods. This criteria is important because
-knowing existing strengths is essential to approach weaknesses. It makes the process more efficient and effective.
+Criteria - experience of the team (i.e. me in this case) in particular methods. This is important because knowing
+existing strengths is essential to approach weaknesses. It makes the process more efficient and effective.
 
 The selected methodology is Data Driven Scrum, which is the combination of Scrum and Kanban board methods. Both methods
 are agile frameworks, which is why they are particularly useful for data science projects. This methodology has been
@@ -52,11 +52,11 @@ Disadvantages of Data Driven Scrum:
 
 ### Problem definition
 
-There are many different types of public transportation in London. Trends in the usage of public transport change due to
-the certain events such as road closures, construction works and so on. In 2020 and 2021, there were a lot of
-disruptions of Transport for London (TfL) because of coronavirus pandemic. New regulations and changes led to the
-transition of popularity for public transport journeys by type of transport. Due to an increased demand for transport,
-there is now a problem of overcrowding, which is a safety risk.
+There are many types of public transportation in London. Trends in the usage of public transport change due to the
+certain events such as road closures, construction works and so on. In 2020 and 2021, there were a lot of disruptions of
+Transport for London (TfL) because of coronavirus pandemic. New regulations and changes led to the transition of
+popularity for public transport journeys by type of transport. Due to an increased demand for transport, there is now a
+problem of overcrowding, which is a safety risk.
 
 ### Target audience
 
@@ -118,7 +118,7 @@ reporting periods. Plot of the graph of usage of different journey types in Lond
 **Answer 1**: "The usage of public transportation in London was more popular before the coronavirus pandemic in 2020.
 There is a huge decrease in the utilisation of public transport during the period of March-May 2020. This was caused by
 the national lockdown and extensive fear of coronavirus. A few months after that the indicators started to improve, but
-in December-March 2021 there was another wave of coronavirus fear due to the emergence of Alpha Covid variant. [2] It
+in December-March 2021 there was another wave of coronavirus fear due to the emergence of Alpha COVID-19 variant. [2] It
 was first identified in Kent, UK. [2] Since that period, the usage of public transportation is improving, but at a
 relatively slower rate."
 
@@ -237,5 +237,6 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 1. Public Transport Journeys by Type of Transport – London Datastore. [online] Available
    at: https://data.london.gov.uk/dataset/public-transport-journeys-type-transport.
 
-2. Roberts, M. (2021). Covid: How worrying are the UK, South Africa, and Brazil coronavirus variants? BBC News. [online]
+2. Roberts, M. (2021). COVID-19: How worrying are the UK, South Africa, and Brazil coronavirus variants? BBC
+   News. [online]
    5 Feb. Available at: https://www.bbc.co.uk/news/health-55659820.
