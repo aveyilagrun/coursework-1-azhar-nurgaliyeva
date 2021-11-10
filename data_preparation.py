@@ -11,9 +11,6 @@ if __name__ == '__main__':
     # Deleting all the rows with null (missing) values.
     df = df.dropna()
 
-    # Remove a single column with the name 'Reporting Period'.
-    df = df.drop(['Reporting Period'], axis=1)
-
     # Limit the data from 2018 to the present time
     df = df.iloc[-47:]
 

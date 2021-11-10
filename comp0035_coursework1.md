@@ -4,29 +4,25 @@
 
 ### Repository URL
 
-Please add the URL to your repository below, then delete this instruction text.
 [Repository](https://github.com/ucl-comp0035/coursework-1-azhar-nurgaliyeva)
 
 ### Set-up instructions
 
-Assume that requirements will be installed from requirements.txt.
+Assumption: requirements will be installed from requirements.txt.
 
-If you have used any libraries that require set-up beyond `pip install ...` then use this section to explain any set-up
-instructions to be followed to run your coursework.
-
-If the marker cannot execute your coursework they can't grade it!
+**requirements.txt** has been generated using ***pipreqs*** based on all imports for the project.
 
 ## Data set
 
-Transport - "Public transport journeys by type of transport".
+Transport - **"Public transport journeys by type of transport".** [1]
 
-Project idea: explore how public transport use in London has changed due to the coronavirus pandemic.
+**Project idea**: explore how public transport use in London has changed due to the coronavirus pandemic.
 
 ## Selection of project methodology
 
 ### Methodology (or combination) selected
 
-- Methodology - Data Driven Scrum
+- Methodology - **Data Driven Scrum**
 
 ### Selection criteria and justification of selection
 
@@ -70,14 +66,16 @@ The following is the description of the target audience for the product:
 
 ### Questions to be answered using the dataset
 
-- Is there any pattern in the changes of usage for public transportation in London?
-- Which group of public transportation consumers use the most?
-- Which category of people usually uses transport at that time?
-- Are trends similar to the performance before the pandemic?
-- Is it possible to reduce the overcrowding on certain types of transport?
+1) Is there any pattern in the changes of usage for public transportation in London?
+2) Which group of public transportation consumers use the most?
+3) Which category of people usually uses this type of transport the most?
+4) Are trends similar to the performance before the pandemic?
+5) Is it possible to reduce the overcrowding on certain types of transport?
 
 Trends in the usage of transport types in London can help TfL analysts to come up with better project plans and
 approaches.
+
+All these questions are investigated in data exploration.
 
 ## Data preparation and exploration
 
@@ -85,15 +83,85 @@ approaches.
 
 [Data Preparation](data_preparation.py)
 
+The data set contains information about public transport journeys by type of transport in London. Both Excel and CSV
+files of the data set are saved in the "data" folder. The prepared data set is saved as "prepared_dataset.csv".
+
+Preparations:
+
+1) Deleted all the rows with missing or null values.
+2) Limited the data set from January 2018 to the latest available data (August 2021).
+3) Reset the index to avoid confusion with columns.
+
 ### Prepared data set
 
-Please add names of your data set files in this repository below, then delete this instruction text.
-[Original data set](data/tfl-journeys-type.csv)
+[Original data set](data/tfl-journeys-type.csv) [1]
+
 [Prepared data set](prepared_dataset.csv)
 
 ### Data exploration
 
 [Data Exploration](data_exploration.py)
+
+According to TfL, Emirates Airline did not run during first period. Moreover, it is not essential public transportation
+type. Hence, it can be removed for the further data exploration part.
+
+The numbers for Overground journey are only reliable from October 2010. The prepared data set is from the period of
+January 2018 to the August 2021. Therefore, it is not a problem.
+
+Period lengths (in days) are different in periods 1 and 13. This is why plots should be approached by using ending of
+reporting periods. Plot of the graph of usage of different journey types in London:
+
+![journey_types](results/journey_types.png)
+
+**Question 1**: "Is there any pattern in the changes of usage for public transportation in London?"
+
+**Answer 1**: "The usage of public transportation in London was more popular before the coronavirus pandemic in 2020.
+There is a huge decrease in the utilisation of public transport during the period of March-May 2020. This was caused by
+the national lockdown and extensive fear of coronavirus. A few months after that the indicators started to improve, but
+in December-March 2021 there was another wave of coronavirus fear due to the emergence of Alpha Covid variant. [2] It
+was first identified in Kent, UK. [2] Since that period, the usage of public transportation is improving, but at a
+relatively slower rate."
+
+**Question 2**: "Which group of public transportation consumers use the most?"
+
+**Answer 2**: "The most popular and the most used type of transport is bus. Underground is in the second place in terms
+of popularity. Buses probably win as there are more routes and bus stops across London than tube stations. Moreover, the
+price for bus journey is much cheaper than for underground journey. Overground, DRL, rail and tram journeys are
+significantly less popular than bus and underground. Their usage remains about the same level as before the coronavirus
+pandemic."
+
+**Question 3**: "Which category of people usually uses this type of transport the most?"
+
+**Answer 3**: "Buses and underground are mostly used by the people who are either working full-time or studying in
+university. Therefore, the profile of a person who uses these 2 types of public transport the most are people in their
+20-30s who need to commute every day."
+
+Boxplot for the bus journeys in London from January 2018 to August 2021:
+
+![boxplot](results/bus_journey_boxplot.png)
+
+**Question 4**: "Are trends similar to the performance before the pandemic?"
+
+**Answer 4**: "The amount of journeys is still smaller than before the pandemic, but in recent months the number of
+journeys is steadily increasing. The minimum indicator of the data for bus journey is around 30 millions, whereas
+maximum is approximately 185 millions. The average value is around 155 millions bus journeys. There are no significant
+outliers in the data, if you do not consider national lockdown period as the outlier. All of these characteristics would
+probably be higher if coronavirus pandemic did not happen. It will take some time for the transport sector to fully
+recover the amount of public transport journeys."
+
+**Question 5**: "Is it possible to reduce the overcrowding on certain types of transport?"
+
+**Answer 5**: "There is a possibility of reducing the pressure on bus journey as they are still heavily overcrowded,
+compared to all the other types of transport. In order to do that the strategy of reducing prices or introducing certain
+discount on other journey types should be considered. Underground, overground, DLR and rail journeys usually cost more
+than bus journey, which is why people might prefer that over anything else."
+
+***Important notes***:
+
+- DLR journeys are based on automatic passenger counts at the stations, whereas overground and tram journeys count
+  passengers automatically on-carriage.
+- The numbers for reporting period 1 are approximations which were deduced using retrospective adjustment.
+- This data set did not include any alterations to the bus journeys numbers due to adjustments.
 
 ## Weekly progress reports
 
@@ -152,11 +220,22 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 What I did in the last week:
 
+- Continued on the data exploration
+- Learnt how to identify and analyse requirements.
+
 What I plan to do in the next week:
+
+- Finish up with coursework 1 and submit it.
 
 Issues blocking my progress (state ‘None’ if there are no issues):
 
+- None (at the time of submitting report there were no issues, but when I was trying to save my graphs an issue of
+  having blank graph appeared. However, it was not the case if I tried on a different device.)
+
 ## References
 
-Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-used to using in your course.
+1. Public Transport Journeys by Type of Transport – London Datastore. [online] Available
+   at: https://data.london.gov.uk/dataset/public-transport-journeys-type-transport.
+
+2. Roberts, M. (2021). Covid: How worrying are the UK, South Africa, and Brazil coronavirus variants? BBC News. [online]
+   5 Feb. Available at: https://www.bbc.co.uk/news/health-55659820.
