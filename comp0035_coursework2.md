@@ -46,6 +46,14 @@ Link to the full list of documented and prioritised requirements.
 
 Table: requirement, conditions of satisfaction, functional/non-functional, prioritisation.
 
+Requirement| Conditions of satisfaction | Functional/non-functional | Prioritisation |
+--- | --- | --- | --- |
+1. | ... | ... | ... |
+2. | ... | ... | ... |
+3. | ... | ... | ... |
+4. | ... | ... | ... |
+5. | ... | ... | ... |
+
 ## Design
 
 ### Structure and flow of the interface
