@@ -9,6 +9,10 @@ The term 'requirements' is used in the broader sense, user stories and/or use ca
 
 Requirements help us to achieve project's objectives and meet stakeholders' needs.
 
+There are 2 types of requirements:
+- *Functional requirements* (specify what the system should do through explanation of functions, feature or behaviour)
+- *Non-functional requirements* (specify how the system should operate)
+
 ### Requirements identification methods
 
 There are many ways to elicit the requirements for the project:
@@ -48,11 +52,14 @@ Table: requirement, conditions of satisfaction, functional/non-functional, prior
 
 Requirement| Conditions of satisfaction | Functional/non-functional | Prioritisation |
 --- | --- | --- | --- |
-1. | ... | ... | ... |
-2. | ... | ... | ... |
-3. | ... | ... | ... |
-4. | ... | ... | ... |
-5. | ... | ... | ... |
+1. Create a new user account | ... | Functional | Must have |
+2. Login page | ... | Functional | Must have |
+3. Logout button | ... | Functional | Must have |
+4. Show main data analytics on the dashboard | ... | Non-functional | Must have |
+5. Give user a chance to change the parameters for shown data | ... | Functional | Should have |
+6. The application should work with recent OS versions| ... | Non-functional | Must have |
+7. System should respond to any change in parameters within 1-2 seconds| ... | Non-functional | Should have |
+8. System should be able to send an email to the user's email account with the analysis | ... | Functional | Could have |
 
 ## Design
 
