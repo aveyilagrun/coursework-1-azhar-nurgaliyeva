@@ -54,7 +54,20 @@ As part of this technique all requirements are distributed into the following ca
 
 Link to the full list of documented and prioritised requirements.
 
-Table: requirement, conditions of satisfaction, functional/non-functional, prioritisation.
+Target audience [link to CW1]: analysts who work in TfL.
+
+User story| Acceptance criteria |
+--- | --- |
+As an app user, I want ... so that I can ... . | ... |
+As an app user, I want ... so that I can ... . | ... |
+As an app user, I want ... so that I can ... . | ... |
+As an app user, I want ... so that I can ... . | ... |
+As an app user, I want ... so that I can ... . | ... |
+As an app user, I want ... so that I can ... . | ... |
+As an app user, I want ... so that I can ... . | ... |
+As an app user, I want ... so that I can ... . | ... |
+
+From user stories, we can deduce requirements for the app by analysing the acceptance criteria.
 
 Requirement| Conditions of satisfaction | Functional/non-functional | Prioritisation |
 --- | --- | --- | --- |
