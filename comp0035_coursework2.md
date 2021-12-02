@@ -3,17 +3,19 @@
 Most students will use the same repository for coursework 2. You may use this file to present the results of that
 coursework if you wish. Alternatively you can use video or audio to provide the explanations instead of writing them.
 
-## Requirements definition and analysis
+# Requirements definition and analysis
 
 The term 'requirements' is used in the broader sense, user stories and/or use cases may be used.
 
 Requirements help us to achieve project's objectives and meet stakeholders' needs.
 
 There are 2 types of requirements:
-- *Functional requirements* (specify what the system should do through explanation of functions, feature or behaviour)
-- *Non-functional requirements* (specify how the system should operate)
 
-### Requirements identification methods
+- *Functional requirements* (description of what the system should do through explanation of functions, feature or
+  behaviour)
+- *Non-functional requirements* (description of how the system should operate)
+
+## Requirements identification methods
 
 There are many ways to elicit the requirements for the project:
 
@@ -29,22 +31,26 @@ There are many ways to elicit the requirements for the project:
 
 For the purpose of this project, I decided to use brainstorming, interface analysis and prototyping techniques.
 
-### Requirement specification method
+[Do we need to include the reason?]
 
-Methodology used is agile, which is why user stories to identify requirements is useful.
+## Requirement specification method
 
-### Prioritisation method
+Methodology used is agile, which is why user stories should be used to identify requirements as it is more useful.
 
-MoSCoW technique has been chosen for prioritisation of requirements
+## Prioritisation method
+
+***MoSCoW technique*** has been chosen for prioritisation of requirements
 
 As part of this technique all requirements are distributed into the following categories:
 
-- Must have: critical requirements that are essential for success.
-- Should have: as important as "Must have", but not time-sensitive.
-- Could have: it would be good to add these requirements, but not essential.
-- Won't have for now: their value is relatively low, which is why they could considered later.
+- **Must have**: essential requirements to meet the objectives of the project.
+- **Should have**: the level of importance is similar to "Must have", but not time-sensitive.
+- **Could have**: non-essential requirements that would be nice to have.
+- **Won't have for now**: no significant value, which is why they could be considered later.
 
-### Documented and prioritised requirements
+[Why MoSCow technique?]
+
+## Documented and prioritised requirements
 
 Link to the full list of documented and prioritised requirements.
 
@@ -61,32 +67,32 @@ Requirement| Conditions of satisfaction | Functional/non-functional | Prioritisa
 7. System should respond to any change in parameters within 1-2 seconds| ... | Non-functional | Should have |
 8. System should be able to send an email to the user's email account with the analysis | ... | Functional | Could have |
 
-## Design
+# Design
 
-### Structure and flow of the interface
+## Structure and flow of the interface
 
-### Relational database design
+## Relational database design
 
-### Application structure
+## Application structure
 
-## Testing
+# Testing
 
-### Choice of unit testing library
+## Choice of unit testing library
 
-### Tests
+## Tests
 
 The tests should be in a separate and appropriately named file/directory.
 
-### Test results
+## Test results
 
 Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
 
-### Continuous integration (optional)
+## Continuous integration (optional)
 
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please
 provide a link to the .yml and a screenshot of the results of a workflow run.
 
-## Weekly progress reports
+# Weekly progress reports
 
 ### Report 1
 
@@ -155,7 +161,7 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 - item
 - item
 
-## References
+# References
 
 Delete this instruction text before submitting:
 
