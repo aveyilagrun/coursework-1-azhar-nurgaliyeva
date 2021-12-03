@@ -87,14 +87,14 @@ From user stories, we can deduce requirements for the app by analysing the condi
 
 Requirement| Functional/non-functional | Prioritisation |
 --- | --- | --- |
-1. Create a new user account | Functional | Must have |
-2. Login page | Functional | Must have |
-3. Logout button | Functional | Must have |
-4. Show main data analytics on the dashboard | Non-functional | Must have |
-5. Give user a chance to change the parameters for shown data | Functional | Should have |
-6. The application should work with recent OS versions| Non-functional | Must have |
-7. System should respond to any change in parameters within 1-2 seconds| Non-functional | Should have |
-8. System should be able to send an email to the user's email account with the analysis | Functional | Could have |
+Create a new user account | Functional | Must have |
+Login page | Functional | Must have |
+Logout button | Functional | Must have |
+Show main data analytics on the dashboard | Non-functional | Must have |
+Give user a chance to change the parameters for shown data | Functional | Should have |
+The application should work with recent OS versions| Non-functional | Must have |
+System should respond to any change in parameters within 1-2 seconds| Non-functional | Should have |
+System should be able to send an email to the user's email account with the analysis | Functional | Could have |
 
 All requirements have been validated by checking:
 
