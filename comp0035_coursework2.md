@@ -29,9 +29,12 @@ There are many ways to elicit the requirements for the project:
 8. Prototyping
 9. Analysing documentation
 
-For the purpose of this project, I decided to use brainstorming, interface analysis and prototyping techniques.
+For the purpose of this project, I decided to use **brainstorming**, **interface analysis** and **prototyping**
+techniques.
 
-[Do we need to include the reason?]
+Brainstorming helps to generate new ideas and encourages open collaboration. Interface analysis is essential as it helps
+to improve the interaction between the user and the app. Prototyping is important in order to get the most user-friendly
+and appealing design.
 
 ## Requirement specification method
 
@@ -48,18 +51,27 @@ As part of this technique all requirements are distributed into the following ca
 - **Could have**: non-essential requirements that would be nice to have.
 - **Won't have for now**: no significant value, which is why they could be considered later.
 
-[Why MoSCow technique?]
+MoSCoW method has the following advantages:
+
+1. It distinguishes all the requirements into 4 distinctive categories, which makes it easier to prioritise.
+2. Development teams can use this tool to prioritise requirements based on budget, needs and skills.
+3. It sets the expectations/objectives of the project from the very beginning.
+
+However, there are some disadvantages of the MoSCoW technique:
+
+1. There is no clear scoring process, which is why some requirements might be mislabeled and get placed in the wrong
+   category.
+2. There might be certain bias when labelling as there is no clear boundaries.
+3. Some requirements depend on the stakeholders who are not the developers or users.
 
 ## Documented and prioritised requirements
 
-Link to the full list of documented and prioritised requirements.
-
-Target audience [link to CW1]: analysts who work in TfL.
+[Target audience (defined in README.md)](README.md): analysts who work in TfL.
 
 User story| Acceptance criteria |
 --- | --- |
-As an app user, I want ... so that I can ... . | ... |
-As an app user, I want ... so that I can ... . | ... |
+As an app user, I want an app to be user-friendly so that I can login without too much trouble. | 1. Make the registration/login page easy to navigate <br /> 2. |
+As an app user, I want data presented in an engaging way so that I can change my preferences and focus. | 1. Create the "edit preferences" feature <br /> 2. |
 As an app user, I want ... so that I can ... . | ... |
 As an app user, I want ... so that I can ... . | ... |
 As an app user, I want ... so that I can ... . | ... |
