@@ -7,7 +7,7 @@ coursework if you wish. Alternatively you can use video or audio to provide the 
 
 Requirements help us to achieve project's objectives and meet stakeholders' needs.
 
-Requirements define what the system or an app should do as well as any limitations regarding its proper operation
+**Requirements** define what the system or an app should do as well as any limitations regarding its proper operation
 process.
 
 There are 2 types of requirements:
@@ -30,7 +30,7 @@ There are many ways to elicit the requirements for the project:
 8. Prototyping
 9. Analysing documentation
 
-For the purpose of this project, I decided to use **brainstorming**, **interface analysis** and **prototyping**
+For the purpose of this project, I decided to use ***brainstorming***, ***interface analysis*** and ***prototyping***
 techniques.
 
 Brainstorming helps to generate new ideas and encourages open collaboration. Interface analysis is essential as it helps
@@ -39,10 +39,21 @@ and appealing design.
 
 ## Requirement specification method
 
-Methodology used is agile, which is why user stories should be used to identify requirements as it is more useful.
+Methodology used is agile, which is why ***user stories*** should be used to identify requirements as it is more useful.
 
-User stories are helpful in understanding what potential users of the app might want to see in it. Moreover, it provides
-a better insight into how the users would be interacting with the features of the app.
+Advantages of user stories:
+
+- Easy to implement.
+- User stories are helpful in understanding what potential users of the app might want to see in it.
+- It provides a better insight into how the users would be interacting with the features of the app.
+- They enable efficient and creative collaboration as it is easier for developers to understand the end result.
+
+Disadvantages of user stories:
+
+- Some requirements might not be caught clearly.
+- It is difficult to implement for big and complex projects.
+- Most users focus mostly on functional requirements rather than non-functional. Therefore, some essential
+  non-functional requirements might be missed.
 
 ## Prioritisation method
 
@@ -72,14 +83,16 @@ However, there are some disadvantages of the MoSCoW technique:
 
 [Target audience (defined in README.md)](README.md): analysts who work in TfL.
 
+Below are the user stories:
+
 User story| Conditions of satisfaction |
 --- | --- |
 As an app user, I want an app to be not problematic/annoying so that I can login without too much trouble. | 1. Make the registration/login page easy to navigate. <br /> 2. Make the registration/login process fast (without too many additional information).|
 As an app user, I want data presented in an engaging way so that I can change my preferences and focus on the key graphs. | 1. Create the "edit preferences" feature. <br /> 2. Make sure that only relevant data is shown.|
-As an app user, I want ... so that I can ... . | ... |
-As an app user, I want ... so that I can ... . | ... |
-As an app user, I want ... so that I can ... . | ... |
-As an app user, I want ... so that I can ... . | ... |
+As an app user, I want an app to show the key trends on the main page so that I can use that statistics for my analysis. | 1. Show main trends in the data on the dashboard after logging in. <br /> 2. Make sure that the graphs are appropriate size and visible. |
+As an app user, I want an app to be as responsive and fast as possible so that I don't have to wait for a long time. | 1. Make sure that the system responds within 1-2 seconds to any user input. <br /> 2. Make sure that there is not a strong dependency on the internet connection. |
+As an app user, I want to receive an email with a report of the key analysis so that I can review it later without logging into the app again. | 1. Make sure that user's email is connected to user's account. <br /> 2. Create a separate feature for sending a report to user's email. |
+As an app user, I want an app to be compatible with the latest OS versions so that I can use the app without any problems. | 1. |
 As an app user, I want ... so that I can ... . | ... |
 As an app user, I want ... so that I can ... . | ... |
 
