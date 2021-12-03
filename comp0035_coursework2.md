@@ -5,9 +5,10 @@ coursework if you wish. Alternatively you can use video or audio to provide the 
 
 # Requirements definition and analysis
 
-The term 'requirements' is used in the broader sense, user stories and/or use cases may be used.
-
 Requirements help us to achieve project's objectives and meet stakeholders' needs.
+
+Requirements define what the system or an app should do as well as any limitations regarding its proper operation
+process.
 
 There are 2 types of requirements:
 
@@ -40,6 +41,9 @@ and appealing design.
 
 Methodology used is agile, which is why user stories should be used to identify requirements as it is more useful.
 
+User stories are helpful in understanding what potential users of the app might want to see in it. Moreover, it provides
+a better insight into how the users would be interacting with the features of the app.
+
 ## Prioritisation method
 
 ***MoSCoW technique*** has been chosen for prioritisation of requirements
@@ -68,10 +72,10 @@ However, there are some disadvantages of the MoSCoW technique:
 
 [Target audience (defined in README.md)](README.md): analysts who work in TfL.
 
-User story| Acceptance criteria |
+User story| Conditions of satisfaction |
 --- | --- |
-As an app user, I want an app to be user-friendly so that I can login without too much trouble. | 1. Make the registration/login page easy to navigate <br /> 2. |
-As an app user, I want data presented in an engaging way so that I can change my preferences and focus. | 1. Create the "edit preferences" feature <br /> 2. |
+As an app user, I want an app to be not problematic/annoying so that I can login without too much trouble. | 1. Make the registration/login page easy to navigate. <br /> 2. Make the registration/login process fast (without too many additional information).|
+As an app user, I want data presented in an engaging way so that I can change my preferences and focus on the key graphs. | 1. Create the "edit preferences" feature. <br /> 2. Make sure that only relevant data is shown.|
 As an app user, I want ... so that I can ... . | ... |
 As an app user, I want ... so that I can ... . | ... |
 As an app user, I want ... so that I can ... . | ... |
@@ -79,26 +83,42 @@ As an app user, I want ... so that I can ... . | ... |
 As an app user, I want ... so that I can ... . | ... |
 As an app user, I want ... so that I can ... . | ... |
 
-From user stories, we can deduce requirements for the app by analysing the acceptance criteria.
+From user stories, we can deduce requirements for the app by analysing the conditions of satisfaction.
 
-Requirement| Conditions of satisfaction | Functional/non-functional | Prioritisation |
---- | --- | --- | --- |
-1. Create a new user account | ... | Functional | Must have |
-2. Login page | ... | Functional | Must have |
-3. Logout button | ... | Functional | Must have |
-4. Show main data analytics on the dashboard | ... | Non-functional | Must have |
-5. Give user a chance to change the parameters for shown data | ... | Functional | Should have |
-6. The application should work with recent OS versions| ... | Non-functional | Must have |
-7. System should respond to any change in parameters within 1-2 seconds| ... | Non-functional | Should have |
-8. System should be able to send an email to the user's email account with the analysis | ... | Functional | Could have |
+Requirement| Functional/non-functional | Prioritisation |
+--- | --- | --- |
+1. Create a new user account | Functional | Must have |
+2. Login page | Functional | Must have |
+3. Logout button | Functional | Must have |
+4. Show main data analytics on the dashboard | Non-functional | Must have |
+5. Give user a chance to change the parameters for shown data | Functional | Should have |
+6. The application should work with recent OS versions| Non-functional | Must have |
+7. System should respond to any change in parameters within 1-2 seconds| Non-functional | Should have |
+8. System should be able to send an email to the user's email account with the analysis | Functional | Could have |
+
+All requirements have been validated by checking:
+
+- ***validity*** (do they reflect the actual needs of the user?)
+- ***consistency*** (they should not contradict to other requirements and should not be repeated)
+- ***completeness*** (do they include all the relevant information?)
+- ***realism*** (is it realistic to complete these requirements with our budget, time constraint and technology used?)
+- ***verifiability*** (is it possible to test these requirements?)
 
 # Design
 
+...
+
 ## Structure and flow of the interface
+
+...
 
 ## Relational database design
 
+...
+
 ## Application structure
+
+...
 
 # Testing
 
@@ -139,35 +159,36 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 What I did in the last week:
 
-- item
-- item
+- Learnt how to use wireframes for use cases.
+- Started writing down use cases and thinking of how to represent wireframes.
 
 What I plan to do in the next week:
 
-- item
-- item
+- Finish diagrams with wireframes.
+- Work on the design of the database.
+- Work on the code quality.
 
 Issues blocking my progress (state ‘None’ if there are no issues):
 
-- item
-- item
+- I am not sure how to represent wireframes for certain use cases in the best ways.
+- Should we make diagrams using certain software? Or can we like draw them in Paint or something?
 
 ### Report 3
 
 What I did in the last week:
 
-- item
-- item
+- Completed the user stories and requirements section.
+- Made some diagrams (wireframes) for the design part.
+- Started thinking about the design of the database.
 
 What I plan to do in the next week:
 
-- item
-- item
+- Continue on the design of the database.
+- Start working on the testing part.
 
 Issues blocking my progress (state ‘None’ if there are no issues):
 
-- item
-- item
+- None right now.
 
 ### Report 4
 
