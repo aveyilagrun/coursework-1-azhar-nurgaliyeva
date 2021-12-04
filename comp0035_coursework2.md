@@ -93,8 +93,6 @@ As an app user, I want an app to show the key trends on the main page so that I 
 As an app user, I want an app to be as responsive and fast as possible so that I don't have to wait for a long time. | 1. Make sure that the system responds within 1-2 seconds to any user input. <br /> 2. Make sure that there is not a strong dependency on the internet connection. |
 As an app user, I want to receive an email with a report of the key analysis so that I can review it later without logging into the app again. | 1. Make sure that user's email is connected to user's account. <br /> 2. Create a separate feature for sending a report to user's email. |
 As an app user, I want an app to be compatible with the latest OS versions so that I can use the app without any problems. | 1. |
-As an app user, I want ... so that I can ... . | ... |
-As an app user, I want ... so that I can ... . | ... |
 
 From user stories, we can deduce requirements for the app by analysing the conditions of satisfaction.
 
@@ -119,7 +117,12 @@ All requirements have been validated by checking:
 
 # Design
 
-...
+In order to design the application server, it is important to work on application's routes, controllers, views and models.
+
+Each of these elements will be presented in the following way:
+- routes and controllers (a list of the URLs and their associated controller functions)
+- models (class + attributes + methods)
+- views (wireframes that represent the structure of each page)
 
 ## Structure and flow of the interface
 
