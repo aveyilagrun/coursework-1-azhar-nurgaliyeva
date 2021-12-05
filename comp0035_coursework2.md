@@ -117,9 +117,11 @@ All requirements have been validated by checking:
 
 # Design
 
-In order to design the application server, it is important to work on application's routes, controllers, views and models.
+In order to design the application server, it is important to work on application's routes, controllers, views and
+models.
 
 Each of these elements will be presented in the following way:
+
 - routes and controllers (a list of the URLs and their associated controller functions)
 - models (class + attributes + methods)
 - views (wireframes that represent the structure of each page)
@@ -146,13 +148,26 @@ Figure 3 - the preferences page for the desktop use in order to get a more perso
 
 Figure 4 - the feedback page, where users can leave their feedback or requests, for the desktop use.
 
+## Application structure
+
+Class name: ...
+Attributes: ...
+Methods: make_sound(), move()
+
+
+Route | View (wireframe) | Controller function |
+--- | --- | --- |
+'/' | <id_number> | index() Sends the user to the home page. |
+'/login' | <1> | login() Takes the information entered by the user, checks against the details in the database, returns error if details incorrect otherwise redirects to user's account page. |
+'/home' | <1> | ... |
+'/dashboards' | <2> | ... |
+'/preferences' | <3> | ... |
+'/feedback' | <4> | ... |
+'/logout' | <id_number> | logout() Logs out the user from the account, returns user to login page, returns error if there is a problem with internet connection. |
+
 ## Relational database design
 
 Tables, attributes and relationships between the tables
-
-## Application structure
-
-Class diagram
 
 # Testing
 
