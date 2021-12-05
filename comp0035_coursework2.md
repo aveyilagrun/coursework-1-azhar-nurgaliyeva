@@ -150,10 +150,9 @@ Figure 4 - the feedback page, where users can leave their feedback or requests, 
 
 ## Application structure
 
-Class name: ...
-Attributes: ...
-Methods: make_sound(), move()
+1. Class name: ... ; Attributes: ... ; Methods: make_sound(), move()
 
+2. Class name: ... ; Attributes: ... ; Methods: ...
 
 Route | View (wireframe) | Controller function |
 --- | --- | --- |
