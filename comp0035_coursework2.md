@@ -126,15 +126,23 @@ Each of these elements will be presented in the following way:
 
 ## Structure and flow of the interface
 
-...
+The target audience (TfL analysts) will most likely use the app the desktop rather than from the phone.
+
+Therefore, the following structure and flow of the interface is suggested:
+
+![wireframe1](wireframes/Wireframe1.jpg)
+
+![wireframe2](wireframes/Wireframe2.jpg)
+
+![wireframe3](wireframes/Wireframe3.jpg)
 
 ## Relational database design
 
-...
+Tables, attributes and relationships between the tables
 
 ## Application structure
 
-...
+Class diagram
 
 # Testing
 
