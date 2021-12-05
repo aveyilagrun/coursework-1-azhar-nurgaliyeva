@@ -132,9 +132,19 @@ Therefore, the following structure and flow of the interface is suggested:
 
 ![wireframe1](wireframes/Wireframe1.jpg)
 
+Figure 1 - the home page of the website for the desktop use.
+
 ![wireframe2](wireframes/Wireframe2.jpg)
 
+Figure 2 - the dashboards page for the desktop use with all the data dashboards.
+
 ![wireframe3](wireframes/Wireframe3.jpg)
+
+Figure 3 - the preferences page for the desktop use in order to get a more personalised analysis of data.
+
+![wireframe4](wireframes/Wireframe4.jpg)
+
+Figure 4 - the feedback page, where users can leave their feedback or requests, for the desktop use.
 
 ## Relational database design
 
