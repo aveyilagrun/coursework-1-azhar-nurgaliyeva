@@ -82,11 +82,12 @@ detailed they are. A lot of essential points are intentionally left out of user 
 scrum sessions, user stories are supposed to generate conversations and follow-up discussions. Rather than having a more
 precise up-front demand formulation as in use cases, small pieces of feedback and results of discussions are used to
 improve the output more regularly. Therefore, since the methodology used is agile, it means it is better to stick with
-user stories as we do not need requirements with so much detail that there is no room for potential future improvements.
+user stories as we do not need requirements with so much detail that there is no room for potential future
+improvements.[1]
 
 ## Prioritisation method
 
-***MoSCoW technique*** is one of the most popular techniques for prioritising requirements. [1]
+***MoSCoW technique*** is one of the most popular techniques for prioritising requirements. [2]
 
 As part of this technique all requirements are distributed into the following categories:
 
@@ -281,23 +282,25 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 What I did in the last week:
 
-- item
-- item
+- Finished working with wireframes (decided to do desktop design, want to ask for feedback).
+- Finished up with requirements (but probably will need to add more later on).
+- Started working on the relational database design.
+- Started thinking about potential tests.
 
 What I plan to do in the next week:
 
-- item
-- item
+- Finish design part.
+- Complete all the tests and make sure they are valid.
+- Try to do the optional task.
 
 Issues blocking my progress (state ‘None’ if there are no issues):
 
-- item
-- item
+- No issues.
 
 # References
 
-[1] Product plan, “What is MoSCoW Prioritization? | Overview of the MoSCoW Method,” Productplan.com, 2018.
-https://www.productplan.com/glossary/moscow-prioritization/.
+[1] “User Story vs Use Case for Agile Software Development,” Visual-paradigm.com, 2019.
+https://www.visual-paradigm.com/guide/agile-software-development/user-story-vs-use-case/.
 
-[2] “Use Cases: the Pros and Cons,” www.cs.hmc.edu.
-https://www.cs.hmc.edu/~mike/courses/mike121/readings/reqsModeling/firesmith.htm.
+[2] Product plan, “What is MoSCoW Prioritization? | Overview of the MoSCoW Method,” Productplan.com, 2018.
+https://www.productplan.com/glossary/moscow-prioritization/.
