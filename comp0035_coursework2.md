@@ -1,41 +1,54 @@
 # Coursework 2
 
+Candidate number: QNGH7
+
+Student number: 19066600
+
 Most students will use the same repository for coursework 2. You may use this file to present the results of that
 coursework if you wish. Alternatively you can use video or audio to provide the explanations instead of writing them.
 
 # Requirements definition and analysis
 
-Requirements help us to achieve project's objectives and meet stakeholders' needs.
+Defining requirements is essential for any software engineering project because they help us to achieve project's
+objectives and meet stakeholders' needs.
 
 **Requirements** define what the system or an app should do as well as any limitations regarding its proper operation
 process.
 
 There are 2 types of requirements:
 
-- *Functional requirements* (description of what the system should do through explanation of functions, feature or
-  behaviour)
-- *Non-functional requirements* (description of how the system should operate)
+- *Functional requirements* - description of what the system should do through explanation of functions or feature.
+- *Non-functional requirements* - description of how the system should operate. They are mostly concerned with quality
+  characteristics.
 
 ## Requirements identification methods
 
-There are many ways to elicit the requirements for the project:
+There are many ways to elicit the requirements for the project. Most commonly used techniques are:
 
-1. Interview
-2. Workshop
-3. Survey/ Questionnaire
-4. Interface analysis
-5. Focus group
-6. Observation or ethnography
-7. Brainstorming
-8. Prototyping
-9. Analysing documentation
+1. Interview - asking users from target audience prepared questions about potential features.
+2. Workshop - interactive session with a group of users on particular topics, which are prepared in advance.
+3. Survey/ Questionnaire - collection of information through the prepared questions. To get the best answers it usually
+   requires a lot of thinking process behind quantity and quality of questions.
+4. Interface analysis - analysing interfaces to make sure that each component operates well with another one.
+5. Focus group - interactive session with a particular group of users, which belong to the target audience. Similar to
+   interviews, but usually involves a group of people.
+6. Observation or ethnography - method of identifying requirements by observing how people behave in their actions and
+   work.
+7. Brainstorming - method of generating ideas by quickly thinking about them and writing them down.
+8. Prototyping - experimental method which involves implementing ideas to a more tangible solution through design
+   process.
+9. Analysing documentation - allows eliciting requirements by analysing the documentation of the tools and design used.
 
 For the purpose of this project, I decided to use ***brainstorming***, ***interface analysis*** and ***prototyping***
 techniques.
 
 Brainstorming helps to generate new ideas and encourages open collaboration. Interface analysis is essential as it helps
-to improve the interaction between the user and the app. Prototyping is important in order to get the most user-friendly
-and appealing design.
+to improve the quality of interaction between the user and the app. Prototyping is important in order to get the most
+user-friendly and appealing design.
+
+All the other methods are not sensible for this project as they require finding an audience (interview, focus group,
+workshop, survey/questionnaire, observation/ethnography) to collect information. This information cannot be used in the
+scope of this project due to the ethics guidance and approval.
 
 ## Requirement specification method
 
