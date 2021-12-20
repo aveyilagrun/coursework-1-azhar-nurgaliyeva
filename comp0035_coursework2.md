@@ -52,7 +52,10 @@ scope of this project due to the ethics guidance and approval.
 
 ## Requirement specification method
 
-Methodology used is agile, which is why ***user stories*** should be used to identify requirements as it is more useful.
+User stories are the general descriptions of a function or certain feature that a potential user from target audience
+might want. Some user stories might also cover desirable functionality, but not necessarily required. Methodology used
+is agile, which is why ***user stories*** should be used to identify requirements as it is more useful. Moreover, user
+stories make it easier to work across the team by giving a clear picture of what should be done.
 
 Advantages of user stories:
 
@@ -68,9 +71,22 @@ Disadvantages of user stories:
 - Most users focus mostly on functional requirements rather than non-functional. Therefore, some essential
   non-functional requirements might be missed.
 
+Considering the methodology used is agile and the scope of the project, user stories will be used to document
+requirements. In order to minimise the impact of potential disadvantages, all requirements will be written using same
+template (structure): "As a *role*, I want *goal* in order to *benefit*". In this particular case, role - "app user",
+whereas goal and benefit would help to elicit the requirements.
+
+Use cases have also been considered as a potential technique. Use cases involve description of a step-by-step process
+that the user goes through to complete a certain goal. Compared to user stories, use cases have an advantage in how
+detailed they are. A lot of essential points are intentionally left out of user stories. By asking questions during
+scrum sessions, user stories are supposed to generate conversations and follow-up discussions. Rather than having a more
+precise up-front demand formulation as in use cases, small pieces of feedback and results of discussions are used to
+improve the output more regularly. Therefore, since the methodology used is agile, it means it is better to stick with
+user stories as we do not need requirements with so much detail that there is no room for potential future improvements.
+
 ## Prioritisation method
 
-***MoSCoW technique*** has been chosen for prioritisation of requirements
+***MoSCoW technique*** is one of the most popular techniques for prioritising requirements. [1]
 
 As part of this technique all requirements are distributed into the following categories:
 
@@ -92,6 +108,10 @@ However, there are some disadvantages of the MoSCoW technique:
 2. There might be certain bias when labelling as there is no clear boundaries.
 3. Some requirements depend on the stakeholders who are not the developers or users.
 
+In this project, MoSCoW technique has been chosen for prioritisation of requirements because for initial stages certain
+biases should not create a significant impact on the final outcome. Moreover, mislabelling can be avoided by following
+standard guidelines.
+
 ## Documented and prioritised requirements
 
 [Target audience (defined in README.md)](README.md): analysts who work in TfL.
@@ -105,28 +125,34 @@ As an app user, I want data presented in an engaging way so that I can change my
 As an app user, I want an app to show the key trends on the main page so that I can use that statistics for my analysis. | 1. Show main trends in the data on the dashboard after logging in. <br /> 2. Make sure that the graphs are appropriate size and visible. |
 As an app user, I want an app to be as responsive and fast as possible so that I don't have to wait for a long time. | 1. Make sure that the system responds within 1-2 seconds to any user input. <br /> 2. Make sure that there is not a strong dependency on the internet connection. |
 As an app user, I want to receive an email with a report of the key analysis so that I can review it later without logging into the app again. | 1. Make sure that user's email is connected to user's account. <br /> 2. Create a separate feature for sending a report to user's email. |
-As an app user, I want an app to be compatible with the latest OS versions so that I can use the app without any problems. | 1. |
+As an app user, I want an app to be compatible with the latest OS versions so that I can use the app without any problems. | 1. Make sure that the system is responsive and compatible with the latest OS versions. <br /> 2. Create a "Feedback" feature to report potential bugs/errors.|
 
 From user stories, we can deduce requirements for the app by analysing the conditions of satisfaction.
 
 Requirement| Functional/non-functional | Prioritisation |
 --- | --- | --- |
-Create a new user account | Functional | Must have |
-Login page | Functional | Must have |
-Logout button | Functional | Must have |
-Show main data analytics on the dashboard | Non-functional | Must have |
-Give user a chance to change the parameters for shown data | Functional | Should have |
+Accessible registration of a new user account | Functional | Must have |
+Easy to navigate login page | Functional | Must have |
+Straightforward navigation to logout button| Functional | Must have |
+User should see the main data analytics on the dashboard | Functional | Must have |
 The application should work with recent OS versions| Non-functional | Must have |
+Give user a chance to change the parameters for shown data | Functional | Should have |
+User should be able to leave feedback in case of any bugs/errors or to contact us for any suggestions | Functional | Should have |
 System should respond to any change in parameters within 1-2 seconds| Non-functional | Should have |
 System should be able to send an email to the user's email account with the analysis | Functional | Could have |
 
+"Must have" requirements are the ones that are required for the initial version as they entail the main idea of this
+project. "Should have" requirements are the ones that are also required, however, they can be added in later versions as
+they are less time-sensitive. "Could have" requirements are the ones that could make the user experience better, but
+they have less significant value.
+
 All requirements have been validated by checking:
 
-- ***validity*** (do they reflect the actual needs of the user?)
-- ***consistency*** (they should not contradict to other requirements and should not be repeated)
-- ***completeness*** (do they include all the relevant information?)
-- ***realism*** (is it realistic to complete these requirements with our budget, time constraint and technology used?)
-- ***verifiability*** (is it possible to test these requirements?)
+- ***validity*** - they should reflect the actual needs of the users.
+- ***consistency*** - they should not contradict to other requirements and should not be repeated.
+- ***completeness*** - they should include all the relevant information.
+- ***realism*** - requirements should be realistic with respect to time, budget and resources.
+- ***verifiability*** - the requirements can be tested.
 
 # Design
 
@@ -270,9 +296,8 @@ Issues blocking my progress (state ‘None’ if there are no issues):
 
 # References
 
-Delete this instruction text before submitting:
+[1] Product plan, “What is MoSCoW Prioritization? | Overview of the MoSCoW Method,” Productplan.com, 2018.
+https://www.productplan.com/glossary/moscow-prioritization/.
 
-- Include references to any templates you have used.
-- If you justify any of your choices with references then remember to also include these.
-- Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-  used to using in your course.
+[2] “Use Cases: the Pros and Cons,” www.cs.hmc.edu.
+https://www.cs.hmc.edu/~mike/courses/mike121/readings/reqsModeling/firesmith.htm.
