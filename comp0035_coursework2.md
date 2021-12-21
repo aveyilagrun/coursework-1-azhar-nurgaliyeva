@@ -260,6 +260,7 @@ The following ERD has been designed (LucidChart has been used):
 When it comes to logical design stage, it is important to check the tables for normalisation first. In SQL, there is 3
 possible modification anomalies. This is why there is first, second and third normalisation forms which prevent these
 modification anomalies. The most common way is to normalise the design to third form, which involves:
+
 - Only one entry at each row and column
 - There is a primary key in every table (primary key is a unique ID)
 - Related tables are linked with primary key relationships
@@ -271,15 +272,41 @@ Updated ERD:
 
 # Testing
 
+**Testing** is an important part of any app development as it helps to identify potential errors and bugs in the code.
+There are many approaches when it comes to testing. When it comes to agile projects, bug estimation usually happens in
+a "fix as you find" pattern as part of the sprints of the team.
+
+There are usually three stages in a commercial system testing:
+
+1. **Development testing** - tests are carried out by the development team.
+    1. Unit testing - tests to check separate units of the system (functions, classes).
+    2. Component testing - tests to check that component interface works properly.
+    3. System testing - tests to check the entire system of the project for the errors/bugs.
+3. **Release testing** - focuses on checking if each release meets the requirements.
+    1. Requirements testing - validation process against the requirements.
+    2. Scenario testing - validation process which uses scenario based cases.
+    3. Performance testing - checks the performance and reliability of the system.
+4. **User testing** - tests that involve the feedback from the users in the target audience.
+    1. Alpha testing - certain group of users is testing the product together with development team.
+    2. Beta testing - a product is made available to a larger group of users for testing.
+    3. Acceptance testing - users decide whether the product is ready for launch.
+
 ## Choice of unit testing library
+
+At this stage, we are focusing on unit testing as it is one of the initial tests in development testing stage. It will
+give us a good insight into the right operation of individual units of our app.
+
+For tests pytest Python library is used. On the other hand, unittest library could have been used as well as it is
+already installed in Python standard library unlike pytest. However, pytest is chosen because it is suggested in the
+Plotly Dash and Flask documentation.
 
 ## Tests
 
-The tests should be in a separate and appropriately named file/directory.
+The tests are in the following directory: [Tests (directory)](tests).
 
 ## Test results
 
-Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
+The tests have been run and the following results have been obtained:
 
 ## Continuous integration (optional)
 
