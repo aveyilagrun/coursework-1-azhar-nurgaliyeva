@@ -243,9 +243,31 @@ Route | View (wireframe) | Controller function |
 
 ## Relational database design
 
-Database should include any entities that are useful for the application.
+Relational database design involves several things:
 
-![database_design](Database_ER_diagram.png)
+- Conceptual design
+- Logical design
+- Physical design
+
+Conceptual design involves identifying entities and attributes. It should include any entities that are useful for the
+application. The main idea of this stage is to capture the relationships between different entities using appropriate
+notation.
+
+The following ERD has been designed (LucidChart has been used):
+
+![ERD_design](Database_ER_diagram.png)
+
+When it comes to logical design stage, it is important to check the tables for normalisation first. In SQL, there is 3
+possible modification anomalies. This is why there is first, second and third normalisation forms which prevent these
+modification anomalies. The most common way is to normalise the design to third form, which involves:
+- Only one entry at each row and column
+- There is a primary key in every table (primary key is a unique ID)
+- Related tables are linked with primary key relationships
+- Robust to the deletion of certain records
+
+Updated ERD:
+
+![ERD_updated_design](updated_ERD.png)
 
 # Testing
 
