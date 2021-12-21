@@ -162,31 +162,57 @@ models.
 
 Each of these elements will be presented in the following way:
 
+- views (wireframes that represent the structure of each page)
 - routes and controllers (a list of the URLs and their associated controller functions)
 - models (class + attributes + methods)
-- views (wireframes that represent the structure of each page)
 
 ## Structure and flow of the interface
 
 The target audience (TfL analysts) will most likely use the app the desktop rather than from the phone.
 
-Therefore, the following structure and flow of the interface is suggested:
+**Wireframes** are useful tools in interface design as they help to build the skeleton of the app or website. It helps
+to organise the elements of the page and provide understanding for the basic architecture and design.
+
+Advantages of wireframing:
+
+- Represent the needs and requirements of the users visually.
+- Easy to implement for early stages of the project.
+- Give a good outlook of the early visual design for initial feedback.
+- Easier to amend the changes compared to concept designs.
+
+Disadvantages of wireframing:
+
+- Client might be confused by the idea of wireframes as they are quite basic compared to concept design.
+- Efficient communication is required to make sure that concept design has all the functionality shown in wireframes.
+
+Considering our methodology before, this project relies on improvement through feedback during scrum team sessions.
+Despite certain disadvantages, wireframes still lower the risk of failure as they allow growth-driven future
+development.
+
+Therefore, the following structure and flow of the interface is suggested through wireframes:
 
 ![wireframe1](wireframes/Wireframe1.jpg)
 
-Figure 1 - the home page of the website for the desktop use.
+Figure 1 - the home page of the website for the desktop use. In this wireframe, there is a home page, where new user can
+register or existing user can find a button for login.
 
 ![wireframe2](wireframes/Wireframe2.jpg)
 
-Figure 2 - the dashboards page for the desktop use with all the data dashboards.
+Figure 2 - the dashboards page for the desktop use with all the data dashboards. In this wireframe, the user can observe
+main dashboards with analysis of data. The user can press on the specific graph he/she needs. The user can also request
+a summary report to the email, which is connected to their email account.
 
 ![wireframe3](wireframes/Wireframe3.jpg)
 
-Figure 3 - the preferences page for the desktop use in order to get a more personalised analysis of data.
+Figure 3 - the preferences page for the desktop use in order to get a more personalised analysis of data. In this
+wireframe, the user can edit the preferences so that only filtered data is displayed. Current filters are provisional
+only and can be subject to change.
 
 ![wireframe4](wireframes/Wireframe4.jpg)
 
-Figure 4 - the feedback page, where users can leave their feedback or requests, for the desktop use.
+Figure 4 - the feedback page, where users can leave their feedback or requests, for the desktop use. In this wireframe,
+the user can fill our a feedback form, which he/she can use to contact us regarding any questions, request or
+bugs/errors.
 
 ## Application structure
 
@@ -304,3 +330,5 @@ https://www.visual-paradigm.com/guide/agile-software-development/user-story-vs-u
 
 [2] Product plan, “What is MoSCoW Prioritization? | Overview of the MoSCoW Method,” Productplan.com, 2018.
 https://www.productplan.com/glossary/moscow-prioritization/.
+
+[3] M. Fisher, “What is wireframing?,” Experience UX, 2015. https://www.experienceux.co.uk/faqs/what-is-wireframing/.
