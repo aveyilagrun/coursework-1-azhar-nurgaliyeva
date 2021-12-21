@@ -171,7 +171,7 @@ Each of these elements will be presented in the following way:
 The target audience (TfL analysts) will most likely use the app the desktop rather than from the phone.
 
 **Wireframes** are useful tools in interface design as they help to build the skeleton of the app or website. It helps
-to organise the elements of the page and provide understanding for the basic architecture and design.
+to organise the elements of the page and provide understanding for the basic architecture and design. [3]
 
 Advantages of wireframing:
 
@@ -216,23 +216,36 @@ bugs/errors.
 
 ## Application structure
 
-1. Class name: ... ; Attributes: ... ; Methods: make_sound(), move()
+To identify classes data driven design (DDD) approach is used. It heavily relies on the available information about
+users and their behaviour. It helps to define classes without considering their responsibilities. Alternative approach
+is responsibility driven design, where each class and its objects handle certain responsibility pieces. [4]
 
-2. Class name: ... ; Attributes: ... ; Methods: ...
+In order to define classes, requirements are used in the following way: nouns/noun phrases = classes, adjectives =
+attributes, verbs/verb phrases = methods.
+
+Class | Attributes (data type in brackets)| Methods |
+--- | --- | --- |
+1. Class name: user | name (str), email (str), password (str)| create_user(), login_user(), logout_user(), delete_user() |
+2. Class name: dashboard | transport_type, reporting_period, journey_limit, outliers | set_preferences(), discard_outliers(), send_report_email() |
+3. Class name: feedback | request (str), email (str) | send_feedback_form() |
+
+We also need to define routes, which will be the URLs of our application. The best way to handle this is to have routes
+corresponding to the wireframes made earlier. Apart from that, controller functions should be defined. They are needed
+because they identify what will be happening when URLs are accessed by users.
 
 Route | View (wireframe) | Controller function |
 --- | --- | --- |
-'/' | <id_number> | index() Sends the user to the home page. |
-'/login' | <1> | login() Takes the information entered by the user, checks against the details in the database, returns error if details incorrect otherwise redirects to user's account page. |
-'/home' | <1> | ... |
-'/dashboards' | <2> | ... |
-'/preferences' | <3> | ... |
-'/feedback' | <4> | ... |
-'/logout' | <id_number> | logout() Logs out the user from the account, returns user to login page, returns error if there is a problem with internet connection. |
+'/' | Index/Home page <1> | index() Sends the user to the home page. |
+'/login' | Home page/Register or Login <1> | login() Takes the information entered by the user, checks against the details in the database, returns error if details incorrect otherwise redirects to user's account page. |
+'/dashboard' | Dashboard <2> | get_dashboards() Calls the Dash dashboard app. |
+'/preferences' | Change the preferences <3> | edit_preferences() Changes and filters out the data included on the graph. |
+'/feedback' | Feedback <4> | leave_feedback() Sends the form with user's request or feedback. |
 
 ## Relational database design
 
-Tables, attributes and relationships between the tables
+Database should include any entities that are useful for the application.
+
+![database_design](Database_ER_diagram.png)
 
 # Testing
 
@@ -332,3 +345,6 @@ https://www.visual-paradigm.com/guide/agile-software-development/user-story-vs-u
 https://www.productplan.com/glossary/moscow-prioritization/.
 
 [3] M. Fisher, “What is wireframing?,” Experience UX, 2015. https://www.experienceux.co.uk/faqs/what-is-wireframing/.
+
+[4] “Responsibility-driven design,” Wikipedia, May 22, 2021.
+https://en.wikipedia.org/wiki/Responsibility-driven_design (accessed Dec. 21, 2021).
