@@ -225,9 +225,9 @@ attributes, verbs/verb phrases = methods.
 
 Class | Attributes (data type in brackets)| Methods |
 --- | --- | --- |
-1. Class name: user | name (str), email (str), password (str)| create_user(), login_user(), logout_user(), delete_user() |
-2. Class name: dashboard | transport_type, reporting_period, journey_limit, outliers | set_preferences(), discard_outliers(), send_report_email() |
-3. Class name: feedback | request (str), email (str) | send_feedback_form() |
+Class name: user | name (str), email (str), password (str) | create_user(), login_user(), logout_user(), delete_user() |
+Class name: dashboard | transport_type, reporting_period, journey_limit, outliers | set_preferences(), discard_outliers(), send_report_email() |
+Class name: feedback | request (str), email (str) | send_feedback_form() |
 
 We also need to define routes, which will be the URLs of our application. The best way to handle this is to have routes
 corresponding to the wireframes made earlier. Apart from that, controller functions should be defined. They are needed
