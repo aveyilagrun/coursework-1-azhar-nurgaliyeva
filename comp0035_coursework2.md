@@ -308,6 +308,8 @@ The tests are in the following directory: [Tests (directory)](tests).
 
 The tests have been run and the following results have been obtained:
 
+![Tests_results](evidence_tests.png)
+
 ## Continuous integration (optional)
 
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please
