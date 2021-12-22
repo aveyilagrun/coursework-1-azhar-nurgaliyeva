@@ -4,8 +4,7 @@ Candidate number: QNGH7
 
 Student number: 19066600
 
-Most students will use the same repository for coursework 2. You may use this file to present the results of that
-coursework if you wish. Alternatively you can use video or audio to provide the explanations instead of writing them.
+Same repository has been used as for Coursework 1.
 
 # Requirements definition and analysis
 
