@@ -323,10 +323,12 @@ If one of the functions was incorrect, then the results would give some type of 
 
 ![Tests_error_results](error.png)
 
+When I changed back functions to their previous working state, there was still an attribute error related to the
+first_name. Hence, create_full_name() function should be investigated for potential bugs.
+
 ## Continuous integration (optional)
 
-Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please
-provide a link to the .yml and a screenshot of the results of a workflow run.
+Haven't done it.
 
 # Weekly progress reports
 
