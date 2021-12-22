@@ -2,6 +2,8 @@
 
 Candidate number: QNGH7
 
+Coursework 2 can be found [here](comp0035_coursework2.md).
+
 ## Technical information
 
 ### Repository URL
