@@ -304,11 +304,24 @@ Plotly Dash and Flask documentation.
 
 The tests are in the following directory: [Tests (directory)](tests).
 
+Tests are written for User class in [user.py](tests/user.py). Fixtures are written in
+the [conftest.py](tests/conftest.py) file in the tests' directory.
+
+First test (test_full_name) checks that the length of the full_name matches the total length of the first_name and
+last_name. Second test (test_password) checks that the hashed_password is not the same as the input password (checks
+that it is encoded).
+
+![Tests](tests.png)
+
 ## Test results
 
-The tests have been run and the following results have been obtained:
+The tests have been run for the correct fixtures and the following results have been obtained:
 
 ![Tests_results](evidence_tests.png)
+
+If one of the functions was incorrect, then the results would give some type of error as below:
+
+![Tests_error_results](error.png)
 
 ## Continuous integration (optional)
 

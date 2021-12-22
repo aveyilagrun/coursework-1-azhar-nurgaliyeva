@@ -14,6 +14,12 @@ def last_name():
 
 
 @pytest.fixture(scope="module")
+def email():
+    email = "az.nur@gmail.com"
+    yield email
+
+
+@pytest.fixture(scope="module")
 def password():
     password = "12345678"
     yield password

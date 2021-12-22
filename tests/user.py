@@ -22,7 +22,6 @@ class User(object):
 
     Methods:
         create_full_name: Creates the full names by concatenating the first names and last name
-        calculate_age: Calculates the age from the date of birth
         hash_password: Create a hashed value of the string password
         is_correct_password: Checks if the string password matches the hashed password
     """
